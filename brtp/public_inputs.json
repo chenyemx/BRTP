@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "recipe": "Full",
+  "bundle": "protocols/full_sgd50_inputs.zip",
+  "sha256": "a81852959f543a487df930665ebe1c02229260387ea339fd81a045f3983c706c",
+  "files": {
+    "frozen_runner.py": "5c8ebf52171fa11d97bb807d3fecaf705f57248cef7fb93fdde26e19469fad3a",
+    "data_index.json": "b56c31511ada629837b3b981e95ff5bec9cd9ee7ce87a97113c80be8a4e47baf",
+    "protocol/BRTP_protocol.json": "5993aa531505d1e9f6fc49addf439b124bf5a846796f83aae3aab235f5cb2c89",
+    "protocol/experiment_plan.json": "33ad0d5e0d7d9b540f8018b28b87508bbb6eea3086ed2981136f9ec85ff44705",
+    "paired_support/Full__B2N__MLRSNet__seed1.json": "070106d3067b60e63c695bb9f9c9942ab21486f357eba6d7defe89fa622f39b7",
+    "paired_support/Full__B2N__MLRSNet__seed2.json": "81a450710ed7ff0b6e60290ec1a881d329dfd3d1f0d973d3d05d2864e62f8aac",
+    "paired_support/Full__B2N__MLRSNet__seed3.json": "01fe5408317b507747737ef01838f3a4d74115378f39518ebb91af190c0c2160",
+    "paired_support/Full__B2N__NWPU45__seed1.json": "e518ccb9e3b2fe5e0817c8a718f727571bef5408e5d4e660d72ff72f621209b8",
+    "paired_support/Full__B2N__NWPU45__seed2.json": "f06022bdf7e635f8efbd4ed2740b58ba1ebe2a023614c054561a2ee89b1caf16",
+    "paired_support/Full__B2N__NWPU45__seed3.json": "8a0ba9d03c8a57c6068e11314b511cb57aacde4bab65aa45936cb68972f896df",
+    "paired_support/Full__B2N__PatternNet__seed1.json": "1d70c176a0a0177ed23b204b398821ab3b15c876d99138b256faac47cf516f1a",
+    "paired_support/Full__B2N__PatternNet__seed2.json": "b1e9544f4a369ae4e024655fbf145d6a46b44f8c796f62a6386bd006a50acd4a",
+    "paired_support/Full__B2N__PatternNet__seed3.json": "8dc162b22823bf019a25cf1676d41ec89af80d154de78415d2cb42858cd27983",
+    "paired_support/Full__B2N__RSICD__seed1.json": "964d30c02233472bf823fc6dabe6d83868c0542967da6951ec8d7cebeceb1f48",
+    "paired_support/Full__B2N__RSICD__seed2.json": "a66cf56ac36225e5652b290c9beea8af21ea46210479fdb70f487c6f6cfc8675",
+    "paired_support/Full__B2N__RSICD__seed3.json": "40be84cd9296519c1e22b6be8f0beec3234a2dea6056fccf3c4327079464d40d",
+    "paired_support/Full__CD__PatternNet__seed1.json": "00f45b5aad79db2f18b61906c419f90f037d4d190f89ee37788184b129ae97d3",
+    "paired_support/Full__CD__PatternNet__seed2.json": "cd81014319ecef2a1f2a5807454b155f3f8e23ca64a87c2b2dee205d630545b3",
+    "paired_support/Full__CD__PatternNet__seed3.json": "17f798d2c72cb1387d4bce5934b202acbaf788cfef3cd846bea39ee2635ad1fc",
+    "paired_support/Full__DG__PatternNetv2__seed1.json": "f10f980dbd7cd3f737613088d8b1d077669d2bb7f6262a411ad29e8b43db4375",
+    "paired_support/Full__DG__PatternNetv2__seed2.json": "b494a9c68ca528a72aa2c36daaebcbd4e7fba174e754788a0ed43cb5786de914",
+    "paired_support/Full__DG__PatternNetv2__seed3.json": "c9c15d2cc72c180d98133cfc5c596763656bc35357ee446d30968a35e200b902"
+  }
+}

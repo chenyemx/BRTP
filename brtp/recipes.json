@@ -1,0 +1,72 @@
+{
+  "version": "1.01",
+  "archives": {},
+  "recipes": {
+    "Full": {
+      "family": "full",
+      "runner_sha256": "5c8ebf52171fa11d97bb807d3fecaf705f57248cef7fb93fdde26e19469fad3a",
+      "configuration": "Full",
+      "training": {
+        "shots": 16,
+        "seeds": [
+          1,
+          2,
+          3
+        ],
+        "epochs": 50,
+        "batch": 32,
+        "accumulation": 1,
+        "optimizer": "SGD",
+        "lr": 0.002,
+        "momentum": 0.9,
+        "dampening": 0,
+        "nesterov": false,
+        "weight_decay": 0.0005,
+        "scheduler": "CosineAnnealingLR T_max=50 eta_min=0; step after each epoch",
+        "warmup_epochs": 0,
+        "context_tokens": 4,
+        "context_init": "a photo of a",
+        "context_init_type": "CLIP token embedding; exactly four BPE tokens",
+        "trainable_scalar_count": 2048,
+        "selection": "fixed final50; zero validation/test calls during training",
+        "precision": "AMP encoders and gradients; FP32 kernel and residual geometry"
+      },
+      "parameters": {
+        "bandwidth": 10,
+        "ridge": 0.1,
+        "radius": 0.25,
+        "lambda_dec": 0.25,
+        "templates": [
+          "a photo of a {}.",
+          "a satellite image of a {}.",
+          "an aerial image of a {}."
+        ],
+        "main_loss": "CE(main)+0.25*CE(donor-exclusion)",
+        "target_training_information": "none; target class names only at inference"
+      },
+      "jobs": [
+        "Full__B2N__PatternNet__seed1",
+        "Full__B2N__PatternNet__seed2",
+        "Full__B2N__PatternNet__seed3",
+        "Full__B2N__RSICD__seed1",
+        "Full__B2N__RSICD__seed2",
+        "Full__B2N__RSICD__seed3",
+        "Full__B2N__NWPU45__seed1",
+        "Full__B2N__NWPU45__seed2",
+        "Full__B2N__NWPU45__seed3",
+        "Full__B2N__MLRSNet__seed1",
+        "Full__B2N__MLRSNet__seed2",
+        "Full__B2N__MLRSNet__seed3",
+        "Full__CD__PatternNet__seed1",
+        "Full__CD__PatternNet__seed2",
+        "Full__CD__PatternNet__seed3",
+        "Full__DG__PatternNetv2__seed1",
+        "Full__DG__PatternNetv2__seed2",
+        "Full__DG__PatternNetv2__seed3"
+      ],
+      "backbone": "ViT-B/16",
+      "weights_sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+      "local_protocol": true
+    }
+  }
+}

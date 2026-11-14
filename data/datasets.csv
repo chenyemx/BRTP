@@ -1,0 +1,8 @@
+dataset,study_role,provider_or_distribution_record,research_publication
+PatternNet,Primary benchmark,https://sites.google.com/view/zhouwx/dataset,https://doi.org/10.1016/j.isprsjprs.2018.01.004
+RSICD,Primary benchmark,https://github.com/201528014227051/RSICD_optimal,https://doi.org/10.1109/TGRS.2017.2776321
+NWPU-RESISC45,Primary benchmark,https://www.tensorflow.org/datasets/catalog/resisc45,https://doi.org/10.1109/JPROC.2017.2675998
+MLRSNet,Primary benchmark,https://github.com/cugbrs/MLRSNet,https://doi.org/10.1016/j.isprsjprs.2020.09.020
+EuroSAT,External transfer evaluation,https://zenodo.org/records/7711810,https://doi.org/10.1109/JSTARS.2019.2918242
+UC Merced Land Use,External transfer evaluation,https://vision.ucmerced.edu/datasets/,https://doi.org/10.1145/1869790.1869829
+AID,External transfer evaluation,https://captain-whu.github.io/AID/,https://doi.org/10.1109/TGRS.2017.2685945
