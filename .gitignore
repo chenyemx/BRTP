@@ -1,0 +1,38 @@
+# Python and development tools
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+build/
+dist/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Local inputs and generated experiments; metadata under protocols/ is tracked.
+/data/
+/weights/
+/runs/
+/outputs/
+/results/
+/feature_cache/
+/reproductions/
+*.pt
+*.pth
+*.parts/
+*.part
+/paths.json
+/protocols/*.zip
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

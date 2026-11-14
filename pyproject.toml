@@ -1,0 +1,14 @@
+# Checkout-based project; Ruff is the single formatter and linter.
+[tool.ruff]
+line-length = 100
+# Keep CPU checks compatible with the archived Python 3.8 comparison runtime.
+# Formal experiment execution separately requires Python 3.10 in reproduce.py.
+target-version = "py38"
+extend-exclude = ["CLIP"]
+force-exclude = true
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/__init__.py" = ["F401"]

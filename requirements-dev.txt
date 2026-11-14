@@ -1,0 +1,2 @@
+# Development checks only; experiment dependencies remain in requirements.txt.
+ruff==0.8.6

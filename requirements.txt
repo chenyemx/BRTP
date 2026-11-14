@@ -1,0 +1,10 @@
+# Runner dependencies; install matched torch/torchvision separately.
+# CUDA training environment: Python3.10.8, torch2.1.2+cu118, torchvision0.16.2+cu118.
+numpy==1.26.4
+Pillow==10.3.0
+yacs==0.1.8
+ftfy==6.2.3
+regex==2024.11.6
+tqdm==4.67.1
+# Imported by yacs.config; pin the transitive runtime dependency as well.
+PyYAML==6.0.2
