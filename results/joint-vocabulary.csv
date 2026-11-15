@@ -1,0 +1,4 @@
+method,vocabulary,prediction_branch,seeds,b2n_base_pct,b2n_new_pct,b2n_h_pct
+CoOp,base+new union,recorded_native_protocol,1-3,84.36,50.65,63.30
+Full,base+new union,recorded_native_protocol,1-3,84.26,57.95,68.67
+SpecPL,base+new union,raw,1-3,87.28,52.81,65.81

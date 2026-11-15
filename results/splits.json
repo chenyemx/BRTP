@@ -1,0 +1,91 @@
+{
+  "description": "Frozen split files used for all experiments, with digests and counts before support-set sampling.",
+  "source": "APPLeNet release (json/ directory, commit 42bc4654311da9773b59979dc71fe9f60534ab84)",
+  "dataset_alias": "The NWPU-RESISC45 split is named resisc45.json; the execution directory calls it NWPU45.",
+  "class_order": "Classes follow the explicit native IDs in the split files. B2N base classes are IDs 0..ceil(C/2)-1 and the rest are new; names are never re-sorted alphabetically.",
+  "name_rendering": "Only underscores are replaced by spaces; native spellings and candidate order are kept, and names are not harmonized across cross-dataset vocabularies.",
+  "label_rule": "Each image carries one scene label; the shared-16 views use the saved v2 mappings rather than a freshly computed class intersection.",
+  "image_identity": "Images are identified by the SHA-256 of their file bytes.",
+  "splits": [
+    {
+      "dataset": "PatternNet",
+      "view": "native",
+      "file": "patternnet.json",
+      "sha256": "36f24fa9648687acd5cb9e21c6a68f2ababc57eb0eeb15935ad5674a1d0e0367",
+      "classes": 38,
+      "train": 14896,
+      "val": 6384,
+      "test": 9120
+    },
+    {
+      "dataset": "RSICD",
+      "view": "native",
+      "file": "rsicd.json",
+      "sha256": "9d31238de620ab89152bd9ed2897ff8b3552d7bddf88a9c00b0e342c86a96a97",
+      "classes": 30,
+      "train": 4887,
+      "val": 2112,
+      "test": 3001
+    },
+    {
+      "dataset": "NWPU45",
+      "view": "native",
+      "file": "resisc45.json",
+      "sha256": "9458dfb3e0c5cff5bfc305398d1237f2bb6bf6adb199c09229c3df0417ec1a70",
+      "classes": 45,
+      "train": 15435,
+      "val": 6615,
+      "test": 9450
+    },
+    {
+      "dataset": "MLRSNet",
+      "view": "native",
+      "file": "mlrsnet.json",
+      "sha256": "057e6764291156799ba85c14bf8835918880c986a6ef33fad28e7eb3ca651f68",
+      "classes": 46,
+      "train": 53470,
+      "val": 22931,
+      "test": 32760
+    },
+    {
+      "dataset": "PatternNet",
+      "view": "shared16",
+      "file": "patternnetv2.json",
+      "sha256": "2db9f8f14226c52f5d857e0d323b1cc21761ed2d1a378b7cd520e52d1c1b8df0",
+      "classes": 16,
+      "train": 6272,
+      "val": 2688,
+      "test": 3840
+    },
+    {
+      "dataset": "RSICD",
+      "view": "shared16",
+      "file": "rsicdv2.json",
+      "sha256": "191adf02a1a76d64e4e840fa8383bd141ab2b45f93ef29263a5d5fc25ea2ea77",
+      "classes": 16,
+      "train": 2620,
+      "val": 1132,
+      "test": 1608
+    },
+    {
+      "dataset": "NWPU45",
+      "view": "shared16",
+      "file": "resisc45v2.json",
+      "sha256": "8e8c7bf1b316e0c6936dcba33a393903c52910ba375ef5fed47bf577319d0f49",
+      "classes": 16,
+      "train": 5488,
+      "val": 2352,
+      "test": 3360
+    },
+    {
+      "dataset": "MLRSNet",
+      "view": "shared16",
+      "file": "mlrsnetv2.json",
+      "sha256": "759e826e7f706afc822253947c4dd6926a9e5906664685b4f5d44dcdf12ca4d6",
+      "classes": 16,
+      "train": 19163,
+      "val": 8219,
+      "test": 11741
+    }
+  ]
+}

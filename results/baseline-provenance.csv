@@ -1,0 +1,15 @@
+method,provenance,note
+CLIP,transcribed from FrogDogNet [8],published scores
+CoOp,transcribed from FrogDogNet [8],published scores
+CLIP-Adapter,transcribed from FrogDogNet [8],published scores
+CoCoOp,transcribed from FrogDogNet [8],published scores
+ProGrad,transcribed from FrogDogNet [8],published scores
+MaPLe,transcribed from FrogDogNet [8],DG value not reported in the source; left empty
+APPLeNet,transcribed from FrogDogNet [8],published scores
+SpecPL,trained locally,"matched SGD schedule, raw prediction head"
+FrogDogNet,transcribed from FrogDogNet [8],published scores
+Prompt-OT,trained locally,matched SGD schedule
+PLKR,trained locally,matched SGD schedule
+CAPrompt,trained locally,matched SGD schedule
+Matched CoOp,trained locally,"control using the matched protocol, not the published CoOp row"
+BRTP (Full),this work,frozen three-seed runs

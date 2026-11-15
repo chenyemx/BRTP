@@ -20,9 +20,10 @@ The [results package](results/) records the numerical evidence of the paper:
 - `class-geometry.csv`: per-class, per-seed coverage, residual length, bound indicators and final angle for F00, the data behind Table 6.
 - `external-targets.csv` and `calibration.csv`: per-seed external-target scores and calibration errors behind Tables A.3 and A.4.
 - `protocol.txt`: dataset counts, support construction, training settings and the aggregation rule for each metric.
+- `splits.json`, `per-class-recall.csv`, `joint-vocabulary.csv`, `baseline-provenance.csv` and `EVIDENCE.md`: split provenance with digests, the per-class recall record of the F00 and U comparison, the prediction branch used in the joint-vocabulary run, and the provenance of each comparison row (added in v1.2.0).
 - `verify.py` and `SHA256SUMS`: the recomputation entry point and the digests it checks.
 
-Run `python results/verify.py` from any directory. It needs Python 3 and the files beside it, verifies the digests and all 2,844 panel accuracies, rebuilds the main-table values of the five locally trained methods, checks the ten-seed summaries and prints the three headline scores. The package holds no images, model weights, per-image predictions or third-party texts. Release v1.1.0 is the version cited by the manuscript.
+Run `python results/verify.py` from any directory. It needs Python 3 and the files beside it, verifies the digests and all 2,844 panel accuracies, rebuilds the main-table values of the five locally trained methods, checks the ten-seed summaries and prints the three headline scores. The package holds no images, model weights, per-image predictions or third-party texts. Release v1.1.0 is the version cited by the manuscript; v1.2.0 adds the evidence records without changing any reported value.
 
 ## Install and check
 
