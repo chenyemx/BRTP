@@ -55,4 +55,8 @@ python train.py execute --run-dir /path/to/new_run --mode run
 
 Preparation creates a new directory and validates the input bytes. Preflight checks the local data and configuration. Smoke tests exercise the training loop before the full run. If your input archive is already at `protocols/full_sgd50_inputs.zip` in your local checkout, the original `prepare` syntax still works without the new flag. Existing prepared directories retain their original execution bindings.
 
-To use the model with your own data and training settings, import [the model](brtp/models/residual_transport.py), [the training objective](brtp/objective.py), or [the evaluation functions](brtp/evaluation/native.py) directly. Those interfaces do not require the Full protocol archive. See [third-party sources](THIRD_PARTY.md) and the [project license notice](LICENSE.md).
+To use the model with your own data and training settings, import [the model](brtp/models/residual_transport.py), [the training objective](brtp/objective.py), or [the evaluation functions](brtp/evaluation/native.py) directly. Those interfaces do not require the Full protocol archive. See [third-party sources](THIRD_PARTY.md) and the [license](LICENSE.md).
+
+## License
+
+The BRTP code is released under the [MIT License](LICENSE). Third-party components in `CLIP/clip/` and the optional dataset configuration keep their own licenses, listed in [LICENSES/](LICENSES/) and [THIRD_PARTY.md](THIRD_PARTY.md).
