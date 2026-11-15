@@ -1,0 +1,10 @@
+method,column,estimate,sd,n_seeds,estimator
+CoOp,B2N_H,73.69688428012245,0.9952683641051384,10,H of mean Base/New; sample SD of per-seed H
+CoOp,CD,47.47768882357353,2.145277993792945,10,Seed mean; sample SD (ddof=1)
+CoOp,DG,78.24845290472456,2.054793186496444,10,Seed mean; sample SD (ddof=1)
+SpecPL,B2N_H,78.19189040565564,0.7628716432875313,10,H of mean Base/New; sample SD of per-seed H
+SpecPL,CD,56.5261317791641,1.9042577425370246,10,Seed mean; sample SD (ddof=1)
+SpecPL,DG,84.96595839406679,0.7657050781502275,10,Seed mean; sample SD (ddof=1)
+BRTP,B2N_H,80.41512571384135,0.1506627701166634,10,H of mean Base/New; sample SD of per-seed H
+BRTP,CD,62.561475424621044,0.6654866193403377,10,Seed mean; sample SD (ddof=1)
+BRTP,DG,85.52533565028996,0.6721631321013044,10,Seed mean; sample SD (ddof=1)

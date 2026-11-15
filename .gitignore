@@ -19,6 +19,8 @@ htmlcov/
 /runs/
 /outputs/
 /results/
+# The published results package is tracked; other local results stay ignored.
+!/results/
 /feature_cache/
 /reproductions/
 *.pt

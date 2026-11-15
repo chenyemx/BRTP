@@ -1,0 +1,763 @@
+table,row,metric,reported,checked_value,evidence
+T1,PatternNet,images,30400.0,30400.0,frozen split index
+T1,PatternNet,classes,38.0,38.0,frozen split index
+T1,PatternNet,base_classes,19.0,19.0,frozen split index
+T1,PatternNet,new_classes,19.0,19.0,frozen split index
+T1,RSICD,images,10000.0,10000.0,frozen split index
+T1,RSICD,classes,30.0,30.0,frozen split index
+T1,RSICD,base_classes,15.0,15.0,frozen split index
+T1,RSICD,new_classes,15.0,15.0,frozen split index
+T1,NWPU45,images,31500.0,31500.0,frozen split index
+T1,NWPU45,classes,45.0,45.0,frozen split index
+T1,NWPU45,base_classes,23.0,23.0,frozen split index
+T1,NWPU45,new_classes,22.0,22.0,frozen split index
+T1,MLRSNet,images,109161.0,109161.0,frozen split index
+T1,MLRSNet,classes,46.0,46.0,frozen split index
+T1,MLRSNet,base_classes,23.0,23.0,frozen split index
+T1,MLRSNet,new_classes,23.0,23.0,frozen split index
+T2,CLIP,PatternNet.Base,63.67,63.67,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,PatternNet.New,64.37,64.37,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,PatternNet.H,64.02,64.02,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,RSICD.Base,54.61,54.61,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,RSICD.New,55.33,55.33,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,RSICD.H,54.97,54.97,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,NWPU45.Base,56.32,56.32,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,NWPU45.New,55.38,55.38,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,NWPU45.H,55.85,55.85,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,MLRSNet.Base,51.43,51.43,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,MLRSNet.New,51.92,51.92,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,MLRSNet.H,51.67,51.67,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,Overall.Base,56.51,56.5075,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,Overall.New,56.75,56.75,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP,Overall.H,56.63,56.62849038695009,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,CLIP,PatternNet,61.72,61.72,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP,RSICD,43.25,43.25,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP,NWPU45,48.56,48.56,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP,MLRSNet,45.13,45.13,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP,target_mean,45.65,45.64666666666667,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP,PatternNetv2,78.04,78.04,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP,RSICDv2,72.15,72.15,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP,NWPU45v2,75.42,75.42,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP,MLRSNetv2,67.78,67.78,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP,target_mean,71.78,71.78333333333333,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,CoOp (published),PatternNet.Base,91.62,91.62,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),PatternNet.New,62.23,62.23,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),PatternNet.H,74.12,74.12,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),RSICD.Base,92.52,92.52,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),RSICD.New,56.08,56.08,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),RSICD.H,69.83,69.83,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),NWPU45.Base,89.04,89.04,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),NWPU45.New,55.75,55.75,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),NWPU45.H,68.57,68.57,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),MLRSNet.Base,75.21,75.21,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),MLRSNet.New,53.64,53.64,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),MLRSNet.H,62.62,62.62,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),Overall.Base,87.1,87.0975,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),Overall.New,56.92,56.925,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoOp (published),Overall.H,68.85,68.85070301515388,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,CoOp (published),PatternNet,85.23,85.23,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoOp (published),RSICD,42.53,42.53,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoOp (published),NWPU45,49.34,49.34,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoOp (published),MLRSNet,44.5,44.5,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoOp (published),target_mean,45.46,45.45666666666667,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoOp (published),PatternNetv2,94.25,94.25,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoOp (published),RSICDv2,76.5,76.5,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoOp (published),NWPU45v2,77.87,77.87,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoOp (published),MLRSNetv2,70.97,70.97,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoOp (published),target_mean,75.11,75.11333333333333,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,CLIP-Adapter,PatternNet.Base,82.15,82.15,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,PatternNet.New,63.26,63.26,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,PatternNet.H,71.48,71.48,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,RSICD.Base,78.93,78.93,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,RSICD.New,55.44,55.44,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,RSICD.H,65.13,65.13,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,NWPU45.Base,81.67,81.67,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,NWPU45.New,56.23,56.23,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,NWPU45.H,66.6,66.6,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,MLRSNet.Base,71.64,71.64,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,MLRSNet.New,53.19,53.19,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,MLRSNet.H,61.05,61.05,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,Overall.Base,78.6,78.5975,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,Overall.New,57.03,57.03,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CLIP-Adapter,Overall.H,66.1,66.09891688632467,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,CLIP-Adapter,PatternNet,74.27,74.27,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP-Adapter,RSICD,42.57,42.57,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP-Adapter,NWPU45,49.07,49.07,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP-Adapter,MLRSNet,44.17,44.17,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CLIP-Adapter,target_mean,45.27,45.27,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP-Adapter,PatternNetv2,92.36,92.36,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP-Adapter,RSICDv2,79.17,79.17,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP-Adapter,NWPU45v2,79.76,79.76,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP-Adapter,MLRSNetv2,71.04,71.04,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CLIP-Adapter,target_mean,76.66,76.65666666666667,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,CoCoOp,PatternNet.Base,92.39,92.39,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,PatternNet.New,63.34,63.34,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,PatternNet.H,75.16,75.16,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,RSICD.Base,93.18,93.18,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,RSICD.New,58.67,58.67,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,RSICD.H,72.0,72.0,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,NWPU45.Base,89.78,89.78,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,NWPU45.New,57.18,57.18,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,NWPU45.H,69.86,69.86,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,MLRSNet.Base,76.32,76.32,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,MLRSNet.New,52.75,52.75,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,MLRSNet.H,62.38,62.38,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,Overall.Base,87.92,87.9175,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,Overall.New,57.98,57.985,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,CoCoOp,Overall.H,69.88,69.88086204828566,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,CoCoOp,PatternNet,85.95,85.95,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoCoOp,RSICD,43.61,43.61,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoCoOp,NWPU45,49.53,49.53,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoCoOp,MLRSNet,44.72,44.72,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,CoCoOp,target_mean,45.95,45.95333333333333,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoCoOp,PatternNetv2,94.41,94.41,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoCoOp,RSICDv2,79.33,79.33,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoCoOp,NWPU45v2,80.43,80.43,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoCoOp,MLRSNetv2,71.67,71.67,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,CoCoOp,target_mean,77.14,77.14333333333333,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,ProGrad,PatternNet.Base,92.65,92.65,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,PatternNet.New,62.48,62.48,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,PatternNet.H,74.63,74.63,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,RSICD.Base,93.44,93.44,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,RSICD.New,58.15,58.15,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,RSICD.H,71.69,71.69,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,NWPU45.Base,90.13,90.13,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,NWPU45.New,57.89,57.89,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,NWPU45.H,70.5,70.5,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,MLRSNet.Base,75.96,75.96,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,MLRSNet.New,52.23,52.23,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,MLRSNet.H,61.9,61.9,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,Overall.Base,88.05,88.045,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,Overall.New,57.69,57.6875,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,ProGrad,Overall.H,69.7,69.70436844904191,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,ProGrad,PatternNet,86.14,86.14,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,ProGrad,RSICD,41.25,41.25,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,ProGrad,NWPU45,48.26,48.26,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,ProGrad,MLRSNet,44.12,44.12,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,ProGrad,target_mean,44.54,44.54333333333333,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,ProGrad,PatternNetv2,95.18,95.18,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,ProGrad,RSICDv2,77.46,77.46,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,ProGrad,NWPU45v2,80.65,80.65,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,ProGrad,MLRSNetv2,72.29,72.29,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,ProGrad,target_mean,76.8,76.8,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,MaPLe,PatternNet.Base,94.74,94.74,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,PatternNet.New,66.12,66.12,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,PatternNet.H,77.88,77.88,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,RSICD.Base,94.91,94.91,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,RSICD.New,60.52,60.52,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,RSICD.H,73.91,73.91,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,NWPU45.Base,91.45,91.45,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,NWPU45.New,60.82,60.82,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,NWPU45.H,73.05,73.05,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,MLRSNet.Base,79.06,79.06,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,MLRSNet.New,54.85,54.85,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,MLRSNet.H,64.59,64.59,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,Overall.Base,90.04,90.03999999999999,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,Overall.New,60.58,60.5775,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,MaPLe,Overall.H,72.43,72.42714956761331,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,MaPLe,PatternNet,87.92,87.92,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,MaPLe,RSICD,45.23,45.23,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,MaPLe,NWPU45,49.56,49.56,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,MaPLe,MLRSNet,46.37,46.37,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,MaPLe,target_mean,47.05,47.053333333333335,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,MaPLe,PatternNetv2,96.52,96.52,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,MaPLe,RSICDv2,80.45,80.45,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,MaPLe,NWPU45v2,83.37,83.37,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,MaPLe,MLRSNetv2,76.15,76.15,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,MaPLe,target_mean,79.99,79.99000000000001,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,APPLeNet,PatternNet.Base,94.89,94.89,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,PatternNet.New,65.57,65.57,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,PatternNet.H,77.55,77.55,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,RSICD.Base,95.26,95.26,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,RSICD.New,60.71,60.71,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,RSICD.H,74.16,74.16,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,NWPU45.Base,91.24,91.24,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,NWPU45.New,60.46,60.46,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,NWPU45.H,72.73,72.73,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,MLRSNet.Base,78.53,78.53,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,MLRSNet.New,56.41,56.41,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,MLRSNet.H,65.66,65.66,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,Overall.Base,89.98,89.98,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,Overall.New,60.79,60.787499999999994,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,APPLeNet,Overall.H,72.56,72.5575372676472,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,APPLeNet,PatternNet,88.17,88.17,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,APPLeNet,RSICD,44.87,44.87,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,APPLeNet,NWPU45,50.97,50.97,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,APPLeNet,MLRSNet,46.83,46.83,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,APPLeNet,target_mean,47.56,47.556666666666665,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,APPLeNet,PatternNetv2,96.63,96.63,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,APPLeNet,RSICDv2,81.03,81.03,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,APPLeNet,NWPU45v2,82.23,82.23,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,APPLeNet,MLRSNetv2,74.03,74.03,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,APPLeNet,target_mean,79.1,79.09666666666666,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,StyLIP,PatternNet.Base,95.13,95.13,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,PatternNet.New,66.78,66.78,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,PatternNet.H,78.47,78.47,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,RSICD.Base,94.98,94.98,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,RSICD.New,60.92,60.92,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,RSICD.H,74.23,74.23,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,NWPU45.Base,90.87,90.87,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,NWPU45.New,60.34,60.34,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,NWPU45.H,72.52,72.52,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,MLRSNet.Base,80.65,80.65,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,MLRSNet.New,55.47,55.47,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,MLRSNet.H,65.73,65.73,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,Overall.Base,90.41,90.4075,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,Overall.New,60.88,60.8775,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,StyLIP,Overall.H,72.76,72.76045320091218,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,StyLIP,PatternNet,88.01,88.01,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,StyLIP,RSICD,46.12,46.12,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,StyLIP,NWPU45,49.89,49.89,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,StyLIP,MLRSNet,46.94,46.94,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,StyLIP,target_mean,47.65,47.65,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,StyLIP,PatternNetv2,96.85,96.85,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,StyLIP,RSICDv2,80.67,80.67,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,StyLIP,NWPU45v2,84.56,84.56,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,StyLIP,MLRSNetv2,75.66,75.66,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,StyLIP,target_mean,80.3,80.29666666666667,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,FrogDogNet,PatternNet.Base,95.5,95.5,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,PatternNet.New,77.6,77.6,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,PatternNet.H,85.63,85.63,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,RSICD.Base,95.7,95.7,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,RSICD.New,64.1,64.1,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,RSICD.H,76.68,76.68,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,NWPU45.Base,90.6,90.6,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,NWPU45.New,65.0,65.0,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,NWPU45.H,75.69,75.69,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,MLRSNet.Base,84.9,84.9,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,MLRSNet.New,57.5,57.5,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,MLRSNet.H,68.56,68.56,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,Overall.Base,91.67,91.675,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,Overall.New,66.05,66.05,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T2,FrogDogNet,Overall.H,76.78,76.78090030115708,"FrogDogNet p.7 Table 1; four domain cells as printed, overall re-aggregated"
+T3,FrogDogNet,PatternNet,91.6,91.6,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,FrogDogNet,RSICD,53.1,53.1,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,FrogDogNet,NWPU45,56.3,56.3,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,FrogDogNet,MLRSNet,52.3,52.3,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T3,FrogDogNet,target_mean,53.9,53.9,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,FrogDogNet,PatternNetv2,96.8,96.8,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,FrogDogNet,RSICDv2,82.5,82.5,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,FrogDogNet,NWPU45v2,86.9,86.9,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,FrogDogNet,MLRSNetv2,80.7,80.7,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T4,FrogDogNet,target_mean,83.37,83.36666666666667,FrogDogNet p.7 Tables 2–3; target mean recalculated
+T2,Prompt-OT,PatternNet.Base,96.25,96.25,saved logits
+T2,Prompt-OT,PatternNet.New,74.66,74.66374269005848,saved logits
+T2,Prompt-OT,PatternNet.H,84.09,84.093708566785,saved logits
+T2,Prompt-OT,RSICD.Base,95.96,95.95555555555556,saved logits
+T2,Prompt-OT,RSICD.New,68.73,68.73195647346213,saved logits
+T2,Prompt-OT,RSICD.H,80.09,80.09366328479425,saved logits
+T2,Prompt-OT,NWPU45.Base,91.75,91.75293305728088,saved logits
+T2,Prompt-OT,NWPU45.New,65.16,65.15873015873017,saved logits
+T2,Prompt-OT,NWPU45.H,76.2,76.2021698555466,saved logits
+T2,Prompt-OT,MLRSNet.Base,88.42,88.42437188485404,saved logits
+T2,Prompt-OT,MLRSNet.New,59.24,59.242748091603055,saved logits
+T2,Prompt-OT,MLRSNet.H,70.95,70.95015856702321,saved logits
+T2,Prompt-OT,Overall.Base,93.1,93.09571512442263,saved logits
+T2,Prompt-OT,Overall.New,66.95,66.94929435346346,saved logits
+T2,Prompt-OT,Overall.H,77.89,77.88674517554814,saved logits
+T3,Prompt-OT,PatternNet,91.45,91.44736842105263,saved logits
+T3,Prompt-OT,RSICD,56.13,56.125735865822506,saved logits
+T3,Prompt-OT,NWPU45,63.44,63.43562610229277,saved logits
+T3,Prompt-OT,MLRSNet,54.88,54.88400488400488,saved logits
+T3,Prompt-OT,target_mean,58.15,58.148455617373386,saved logits
+T4,Prompt-OT,PatternNetv2,97.28,97.28298611111111,saved logits
+T4,Prompt-OT,RSICDv2,80.83,80.82504145936981,saved logits
+T4,Prompt-OT,NWPU45v2,87.44,87.44047619047619,saved logits
+T4,Prompt-OT,MLRSNetv2,79.1,79.10172330579451,saved logits
+T4,Prompt-OT,target_mean,82.46,82.45574698521351,saved logits
+T2,PLKR,PatternNet.Base,97.61,97.60964912280701,saved logits
+T2,PLKR,PatternNet.New,74.74,74.73684210526315,saved logits
+T2,PLKR,PatternNet.H,84.66,84.65547377796827,saved logits
+T2,PLKR,RSICD.Base,96.49,96.48888888888888,saved logits
+T2,PLKR,RSICD.New,69.66,69.6646679991117,saved logits
+T2,PLKR,RSICD.H,80.91,80.91149579877657,saved logits
+T2,PLKR,NWPU45.Base,92.46,92.4568668046929,saved logits
+T2,PLKR,NWPU45.New,63.75,63.75180375180375,saved logits
+T2,PLKR,NWPU45.H,75.47,75.46689959066806,saved logits
+T2,PLKR,MLRSNet.Base,90.64,90.64184721798394,saved logits
+T2,PLKR,MLRSNet.New,59.21,59.21424936386769,saved logits
+T2,PLKR,MLRSNet.H,71.63,71.63257373430484,saved logits
+T2,PLKR,Overall.Base,94.3,94.29931300859317,saved logits
+T2,PLKR,Overall.New,66.84,66.84189080501157,saved logits
+T2,PLKR,Overall.H,78.23,78.23131804822515,saved logits
+T3,PLKR,PatternNet,94.83,94.828216374269,saved logits
+T3,PLKR,RSICD,49.82,49.81672775741419,saved logits
+T3,PLKR,NWPU45,59.34,59.34391534391534,saved logits
+T3,PLKR,MLRSNet,51.57,51.573056573056576,saved logits
+T3,PLKR,target_mean,53.58,53.57789989146204,saved logits
+T4,PLKR,PatternNetv2,98.06,98.06423611111111,saved logits
+T4,PLKR,RSICDv2,82.67,82.66998341625207,saved logits
+T4,PLKR,NWPU45v2,86.39,86.38888888888889,saved logits
+T4,PLKR,MLRSNetv2,79.04,79.04210317122335,saved logits
+T4,PLKR,target_mean,82.7,82.7003251587881,saved logits
+T2,CAPrompt,PatternNet.Base,97.11,97.1125730994152,saved logits
+T2,CAPrompt,PatternNet.New,80.12,80.11695906432749,saved logits
+T2,CAPrompt,PatternNet.H,87.8,87.79985986138095,saved logits
+T2,CAPrompt,RSICD.Base,96.2,96.2,saved logits
+T2,CAPrompt,RSICD.New,66.82,66.82211858760826,saved logits
+T2,CAPrompt,RSICD.H,78.86,78.86399543597327,saved logits
+T2,CAPrompt,NWPU45.Base,92.77,92.76742581090407,saved logits
+T2,CAPrompt,NWPU45.New,65.82,65.81529581529581,saved logits
+T2,CAPrompt,NWPU45.H,77.0,77.00101888980886,saved logits
+T2,CAPrompt,MLRSNet.Base,89.61,89.6104160309226,saved logits
+T2,CAPrompt,MLRSNet.New,61.24,61.24173027989822,saved logits
+T2,CAPrompt,MLRSNet.H,72.76,72.75861912534917,saved logits
+T2,CAPrompt,Overall.Base,93.92,93.92260373531047,saved logits
+T2,CAPrompt,Overall.New,68.5,68.49902593678245,saved logits
+T2,CAPrompt,Overall.H,79.22,79.2210604253109,saved logits
+T3,CAPrompt,PatternNet,95.53,95.53362573099415,saved logits
+T3,CAPrompt,RSICD,64.26,64.2563589914473,saved logits
+T3,CAPrompt,NWPU45,63.83,63.830687830687836,saved logits
+T3,CAPrompt,MLRSNet,57.36,57.363654863654865,saved logits
+T3,CAPrompt,target_mean,61.82,61.81690056193,saved logits
+T4,CAPrompt,PatternNetv2,98.2,98.203125,saved logits
+T4,CAPrompt,RSICDv2,81.43,81.42620232172472,saved logits
+T4,CAPrompt,NWPU45v2,88.92,88.9186507936508,saved logits
+T4,CAPrompt,MLRSNetv2,80.6,80.59790477812793,saved logits
+T4,CAPrompt,target_mean,83.65,83.64758596450115,saved logits
+T2,SpecPL,PatternNet.Base,97.87,97.87280701754386,saved logits
+T2,SpecPL,PatternNet.New,72.43,72.42690058479532,saved logits
+T2,SpecPL,PatternNet.H,83.25,83.24881074214058,saved logits
+T2,SpecPL,RSICD.Base,97.44,97.44444444444444,saved logits
+T2,SpecPL,RSICD.New,66.96,66.95536309127249,saved logits
+T2,SpecPL,RSICD.H,79.37,79.37269826289344,saved logits
+T2,SpecPL,NWPU45.Base,93.73,93.7336093857833,saved logits
+T2,SpecPL,NWPU45.New,64.6,64.60317460317461,saved logits
+T2,SpecPL,NWPU45.H,76.49,76.48871703441725,saved logits
+T2,SpecPL,MLRSNet.Base,91.58,91.58173125826467,saved logits
+T2,SpecPL,MLRSNet.New,58.45,58.45089058524173,saved logits
+T2,SpecPL,MLRSNet.H,71.36,71.35826445754438,saved logits
+T2,SpecPL,Overall.Base,95.16,95.15814802650907,saved logits
+T2,SpecPL,Overall.New,65.61,65.60908221612104,saved logits
+T2,SpecPL,Overall.H,77.67,77.66805148017723,saved logits
+T3,SpecPL,PatternNet,96.72,96.72149122807018,saved logits
+T3,SpecPL,RSICD,55.3,55.303787626346775,saved logits
+T3,SpecPL,NWPU45,62.65,62.64902998236332,saved logits
+T3,SpecPL,MLRSNet,56.82,56.82234432234432,saved logits
+T3,SpecPL,target_mean,58.26,58.25838731035147,saved logits
+T4,SpecPL,PatternNetv2,98.8,98.80208333333333,saved logits
+T4,SpecPL,RSICDv2,84.72,84.72222222222223,saved logits
+T4,SpecPL,NWPU45v2,88.81,88.80952380952381,saved logits
+T4,SpecPL,MLRSNetv2,80.42,80.42472248246884,saved logits
+T4,SpecPL,target_mean,84.65,84.65215617140495,saved logits
+T2,BRTP,PatternNet.Base,95.2,95.19736842105263,saved logits
+T2,BRTP,PatternNet.New,80.72,80.71637426900584,saved logits
+T2,BRTP,PatternNet.H,87.36,87.36084289260445,saved logits
+T2,BRTP,RSICD.Base,94.93,94.93333333333334,saved logits
+T2,BRTP,RSICD.New,71.24,71.24139462580501,saved logits
+T2,BRTP,RSICD.H,81.4,81.39845506238622,saved logits
+T2,BRTP,NWPU45.Base,91.19,91.19392684610077,saved logits
+T2,BRTP,NWPU45.New,73.21,73.21067821067821,saved logits
+T2,BRTP,NWPU45.H,81.22,81.2187618563635,saved logits
+T2,BRTP,MLRSNet.Base,84.87,84.87437697080664,saved logits
+T2,BRTP,MLRSNet.New,62.63,62.62798982188295,saved logits
+T2,BRTP,MLRSNet.H,72.07,72.0735772943513,saved logits
+T2,BRTP,Overall.Base,91.55,91.54975139282334,saved logits
+T2,BRTP,Overall.New,71.95,71.94910923184301,saved logits
+T2,BRTP,Overall.H,80.57,80.57454391968501,saved logits
+T3,BRTP,PatternNet,90.48,90.48245614035088,saved logits
+T3,BRTP,RSICD,61.2,61.20182161501722,saved logits
+T3,BRTP,NWPU45,67.49,67.4920634920635,saved logits
+T3,BRTP,MLRSNet,59.25,59.24603174603175,saved logits
+T3,BRTP,target_mean,62.65,62.64663895103749,saved logits
+T4,BRTP,PatternNetv2,97.48,97.48263888888889,saved logits
+T4,BRTP,RSICDv2,84.37,84.36981757877281,saved logits
+T4,BRTP,NWPU45v2,89.86,89.86111111111111,saved logits
+T4,BRTP,MLRSNetv2,81.61,81.60860801181046,saved logits
+T4,BRTP,target_mean,85.28,85.27984556723146,saved logits
+T5,Frozen ensemble (a),Base,72.81,72.81301492235784,saved logits
+T5,Frozen ensemble (a),New,70.41,70.41479604318951,saved logits
+T5,Frozen ensemble (a),H,71.59,71.59382749040046,saved logits
+T5,Frozen ensemble (a),CD,59.44,59.438644564324896,deterministic CD correct/total count from archived test panels
+T5,Frozen ensemble (a),DG,79.77,79.7733768757859,saved logits
+T5,Matched CoOp (a),Base,92.33,92.32522102238188,saved logits
+T5,Matched CoOp (a),New,62.21,62.20601811972533,saved logits
+T5,Matched CoOp (a),H,74.33,74.33039951934236,saved logits
+T5,Matched CoOp (a),CD,46.09,46.09456953351581,saved logits
+T5,Matched CoOp (a),DG,77.39,77.38849535016287,saved logits
+T5,AnchorOnly (U) (a),Base,92.23,92.23243670322223,saved logits
+T5,AnchorOnly (U) (a),New,64.81,64.81194719072354,saved logits
+T5,AnchorOnly (U) (a),H,76.13,76.1283360622161,saved logits
+T5,AnchorOnly (U) (a),CD,46.81,46.811422511855696,saved logits
+T5,AnchorOnly (U) (a),DG,78.65,78.64702755331191,saved logits
+T5,F00 (a),Base,91.68,91.67665501785669,saved logits
+T5,F00 (a),New,70.59,70.5909288587835,saved logits
+T5,F00 (a),H,79.76,79.76380836848577,saved logits
+T5,F00 (a),CD,61.6,61.59671522537604,saved logits
+T5,F00 (a),DG,83.07,83.0653231146154,saved logits
+T5,F10 (a),Base,91.54,91.54423901064305,saved logits
+T5,F10 (a),New,71.62,71.62131650418252,saved logits
+T5,F10 (a),H,80.37,80.3664584186098,saved logits
+T5,F10 (a),CD,61.76,61.75806744681934,saved logits
+T5,F10 (a),DG,84.29,84.29449993799616,saved logits
+T5,F01 (a),Base,91.58,91.58254092313082,saved logits
+T5,F01 (a),New,70.62,70.61922955937354,saved logits
+T5,F01 (a),H,79.75,79.7462131497375,saved logits
+T5,F01 (a),CD,62.23,62.23327901387067,saved logits
+T5,F01 (a),DG,84.58,84.58233748687408,saved logits
+T5,BRTP (a),Base,91.55,91.54975139282334,saved logits
+T5,BRTP (a),New,71.95,71.94910923184301,saved logits
+T5,BRTP (a),H,80.57,80.57454391968501,saved logits
+T5,BRTP (a),CD,62.65,62.64663895103749,saved logits
+T5,BRTP (a),DG,85.28,85.27984556723146,saved logits
+T5,Frozen ensemble (b),CD.PatternNet,65.22,65.21929824561404,deterministic CD correct/total count from archived test panels
+T5,Frozen ensemble (b),CD.RSICD,60.01,60.01332889036988,deterministic CD correct/total count from archived test panels
+T5,Frozen ensemble (b),CD.NWPU45,63.04,63.03703703703704,deterministic CD correct/total count from archived test panels
+T5,Frozen ensemble (b),CD.MLRSNet,55.27,55.265567765567766,deterministic CD correct/total count from archived test panels
+T5,Frozen ensemble (b),DG.RSICDv2,79.48,79.4776119402985,saved logits
+T5,Frozen ensemble (b),DG.NWPU45v2,83.63,83.63095238095238,saved logits
+T5,Frozen ensemble (b),DG.MLRSNetv2,76.21,76.2115663061068,saved logits
+T5,Matched CoOp (b),CD.PatternNet,93.14,93.1359649122807,saved logits
+T5,Matched CoOp (b),CD.RSICD,40.16,40.16438964789515,saved logits
+T5,Matched CoOp (b),CD.NWPU45,51.52,51.516754850088184,saved logits
+T5,Matched CoOp (b),CD.MLRSNet,46.6,46.6025641025641,saved logits
+T5,Matched CoOp (b),DG.RSICDv2,75.73,75.72553897180762,saved logits
+T5,Matched CoOp (b),DG.NWPU45v2,81.86,81.85515873015872,saved logits
+T5,Matched CoOp (b),DG.MLRSNetv2,74.58,74.58478834852227,saved logits
+T5,AnchorOnly (U) (b),CD.PatternNet,93.02,93.01535087719299,saved logits
+T5,AnchorOnly (U) (b),CD.RSICD,41.89,41.88603798733755,saved logits
+T5,AnchorOnly (U) (b),CD.NWPU45,51.41,51.407407407407405,saved logits
+T5,AnchorOnly (U) (b),CD.MLRSNet,47.14,47.14082214082214,saved logits
+T5,AnchorOnly (U) (b),DG.RSICDv2,76.99,76.99004975124377,saved logits
+T5,AnchorOnly (U) (b),DG.NWPU45v2,82.77,82.76785714285714,saved logits
+T5,AnchorOnly (U) (b),DG.MLRSNetv2,76.18,76.18317576583483,saved logits
+T5,F00 (b),CD.PatternNet,90.99,90.99415204678363,saved logits
+T5,F00 (b),CD.RSICD,61.02,61.02410307675219,saved logits
+T5,F00 (b),CD.NWPU45,66.11,66.10934744268077,saved logits
+T5,F00 (b),CD.MLRSNet,57.66,57.65669515669516,saved logits
+T5,F00 (b),DG.RSICDv2,81.63,81.6334991708126,saved logits
+T5,F00 (b),DG.NWPU45v2,87.67,87.6686507936508,saved logits
+T5,F00 (b),DG.MLRSNetv2,79.89,79.89381937938279,saved logits
+T5,BRTP (b),CD.PatternNet,90.48,90.48245614035088,saved logits
+T5,BRTP (b),CD.RSICD,61.2,61.20182161501722,saved logits
+T5,BRTP (b),CD.NWPU45,67.49,67.4920634920635,saved logits
+T5,BRTP (b),CD.MLRSNet,59.25,59.24603174603175,saved logits
+T5,BRTP (b),DG.RSICDv2,84.37,84.36981757877281,saved logits
+T5,BRTP (b),DG.NWPU45v2,89.86,89.86111111111111,saved logits
+T5,BRTP (b),DG.MLRSNetv2,81.61,81.60860801181046,saved logits
+T6,B2N base,class_seed_entries,240.0,240.0,class-by-seed checkpoint diagnostics
+T6,B2N base,median_coverage,0.911,0.910709023475647,class-by-seed checkpoint diagnostics
+T6,B2N base,unscaled_exceeds_bound,238.0,238.0,class-by-seed checkpoint diagnostics
+T6,B2N base,scaled_exceeds_bound,233.0,233.0,class-by-seed checkpoint diagnostics
+T6,B2N base,median_angle_deg,14.04,14.036243467926479,class-by-seed checkpoint diagnostics
+T6,B2N new,class_seed_entries,237.0,237.0,class-by-seed checkpoint diagnostics
+T6,B2N new,median_coverage,0.154,0.15407229959964752,class-by-seed checkpoint diagnostics
+T6,B2N new,unscaled_exceeds_bound,224.0,224.0,class-by-seed checkpoint diagnostics
+T6,B2N new,scaled_exceeds_bound,1.0,1.0,class-by-seed checkpoint diagnostics
+T6,B2N new,median_angle_deg,2.87,2.873728196575378,class-by-seed checkpoint diagnostics
+T6,CD,class_seed_entries,363.0,363.0,class-by-seed checkpoint diagnostics
+T6,CD,median_coverage,0.306,0.3064667582511902,class-by-seed checkpoint diagnostics
+T6,CD,unscaled_exceeds_bound,356.0,356.0,class-by-seed checkpoint diagnostics
+T6,CD,scaled_exceeds_bound,128.0,128.0,class-by-seed checkpoint diagnostics
+T6,CD,median_angle_deg,7.16,7.157724942939626,class-by-seed checkpoint diagnostics
+T6,DG,class_seed_entries,48.0,48.0,class-by-seed checkpoint diagnostics
+T6,DG,median_coverage,0.911,0.9108036756515503,class-by-seed checkpoint diagnostics
+T6,DG,unscaled_exceeds_bound,48.0,48.0,class-by-seed checkpoint diagnostics
+T6,DG,scaled_exceeds_bound,48.0,48.0,class-by-seed checkpoint diagnostics
+T6,DG,median_angle_deg,14.04,14.036243467926479,class-by-seed checkpoint diagnostics
+T7,CoOp,shots=1,70.33,70.33,FrogDogNet p.7 Table 4
+T7,CoOp,shots=4,71.61,71.61,FrogDogNet p.7 Table 4
+T7,CoOp,shots=8,72.17,72.17,FrogDogNet p.7 Table 4
+T7,CoOp,shots=16,74.12,74.12,FrogDogNet p.7 Table 4
+T7,CoOp,shots=32,74.58,74.58,FrogDogNet p.7 Table 4
+T7,CLIP-Adapter,shots=1,69.75,69.75,FrogDogNet p.7 Table 4
+T7,CLIP-Adapter,shots=4,69.95,69.95,FrogDogNet p.7 Table 4
+T7,CLIP-Adapter,shots=8,70.37,70.37,FrogDogNet p.7 Table 4
+T7,CLIP-Adapter,shots=16,71.48,71.48,FrogDogNet p.7 Table 4
+T7,CLIP-Adapter,shots=32,71.64,71.64,FrogDogNet p.7 Table 4
+T7,CoCoOp,shots=1,71.85,71.85,FrogDogNet p.7 Table 4
+T7,CoCoOp,shots=4,73.61,73.61,FrogDogNet p.7 Table 4
+T7,CoCoOp,shots=8,74.53,74.53,FrogDogNet p.7 Table 4
+T7,CoCoOp,shots=16,75.16,75.16,FrogDogNet p.7 Table 4
+T7,CoCoOp,shots=32,74.39,74.39,FrogDogNet p.7 Table 4
+T7,ProGrad,shots=1,73.67,73.67,FrogDogNet p.7 Table 4
+T7,ProGrad,shots=4,72.05,72.05,FrogDogNet p.7 Table 4
+T7,ProGrad,shots=8,73.16,73.16,FrogDogNet p.7 Table 4
+T7,ProGrad,shots=16,74.63,74.63,FrogDogNet p.7 Table 4
+T7,ProGrad,shots=32,75.56,75.56,FrogDogNet p.7 Table 4
+T7,APPLeNet,shots=1,72.44,72.44,FrogDogNet p.7 Table 4
+T7,APPLeNet,shots=4,72.46,72.46,FrogDogNet p.7 Table 4
+T7,APPLeNet,shots=8,75.28,75.28,FrogDogNet p.7 Table 4
+T7,APPLeNet,shots=16,77.55,77.55,FrogDogNet p.7 Table 4
+T7,APPLeNet,shots=32,77.13,77.13,FrogDogNet p.7 Table 4
+T7,FrogDogNet,shots=1,73.5,73.5,FrogDogNet p.7 Table 4
+T7,FrogDogNet,shots=4,81.7,81.7,FrogDogNet p.7 Table 4
+T7,FrogDogNet,shots=8,79.83,79.83,FrogDogNet p.7 Table 4
+T7,FrogDogNet,shots=16,85.63,85.63,FrogDogNet p.7 Table 4
+T7,FrogDogNet,shots=32,77.28,77.28,FrogDogNet p.7 Table 4
+T7,BRTP,shots=1,83.12,83.12425005236302,saved logits
+T7,BRTP,shots=4,85.8,85.80202096449167,saved logits
+T7,BRTP,shots=8,87.05,87.04567498586118,saved logits
+T7,BRTP,shots=16,87.36,87.36084289260445,saved logits
+T7,BRTP,shots=32,87.18,87.18207271265611,saved logits
+T8,1,PatternNet,86.36,86.36152605372047,saved logits
+T8,1,RSICD,81.52,81.52248670621839,saved logits
+T8,1,NWPU45,80.23,80.2294561693331,saved logits
+T8,1,MLRSNet,70.64,70.64132825657734,saved logits
+T8,1,dataset_mean_H,79.69,79.68869929646232,saved logits
+T8,4,PatternNet,87.36,87.36084289260445,saved logits
+T8,4,RSICD,81.4,81.39845506238622,saved logits
+T8,4,NWPU45,81.22,81.2187618563635,saved logits
+T8,4,MLRSNet,72.07,72.0735772943513,saved logits
+T8,4,dataset_mean_H,80.51,80.51290927642637,saved logits
+T8,8,PatternNet,86.59,86.58777987026573,saved logits
+T8,8,RSICD,81.17,81.1670247970832,saved logits
+T8,8,NWPU45,81.19,81.19449416556093,saved logits
+T8,8,MLRSNet,72.04,72.03532461426276,saved logits
+T8,8,dataset_mean_H,80.25,80.24615586179316,saved logits
+T8,12,PatternNet,86.7,86.69596081582931,saved logits
+T8,12,RSICD,81.12,81.12428749262924,saved logits
+T8,12,NWPU45,80.83,80.83324826462108,saved logits
+T8,12,MLRSNet,71.69,71.69404448331099,saved logits
+T8,12,dataset_mean_H,80.09,80.08688526409765,saved logits
+T8,16,PatternNet,86.32,86.31682205695984,saved logits
+T8,16,RSICD,82.25,82.25335745740098,saved logits
+T8,16,NWPU45,80.45,80.44788266400545,saved logits
+T8,16,MLRSNet,70.89,70.88836533288556,saved logits
+T8,16,dataset_mean_H,79.98,79.97660687781296,saved logits
+T9,lambda=0 (F10),PatternNet,87.06,87.05970352237182,saved logits
+T9,lambda=0 (F10),RSICD,81.57,81.57071704218227,saved logits
+T9,lambda=0 (F10),NWPU45,80.84,80.8353317324242,saved logits
+T9,lambda=0 (F10),MLRSNet,71.76,71.76233099013115,saved logits
+T9,lambda=0 (F10),dataset_mean_H,80.31,80.30702082177736,saved logits
+T9,lambda=0.1 (lambda_0.1),PatternNet,87.55,87.55081705230663,saved logits
+T9,lambda=0.1 (lambda_0.1),RSICD,81.53,81.52537543738336,saved logits
+T9,lambda=0.1 (lambda_0.1),NWPU45,80.83,80.82789648230786,saved logits
+T9,lambda=0.1 (lambda_0.1),MLRSNet,72.21,72.20911997750498,saved logits
+T9,lambda=0.1 (lambda_0.1),dataset_mean_H,80.53,80.52830223737571,saved logits
+T9,lambda=0.25 (Full),PatternNet,87.36,87.36084289260445,saved logits
+T9,lambda=0.25 (Full),RSICD,81.4,81.39845506238622,saved logits
+T9,lambda=0.25 (Full),NWPU45,81.22,81.2187618563635,saved logits
+T9,lambda=0.25 (Full),MLRSNet,72.07,72.0735772943513,saved logits
+T9,lambda=0.25 (Full),dataset_mean_H,80.51,80.51290927642637,saved logits
+T9,lambda=0.5 (lambda_0.5),PatternNet,87.02,87.01801407197286,saved logits
+T9,lambda=0.5 (lambda_0.5),RSICD,81.68,81.67933326480511,saved logits
+T9,lambda=0.5 (lambda_0.5),NWPU45,80.82,80.82135562631125,saved logits
+T9,lambda=0.5 (lambda_0.5),MLRSNet,71.82,71.81951098420943,saved logits
+T9,lambda=0.5 (lambda_0.5),dataset_mean_H,80.33,80.33455348682466,saved logits
+T9,lambda=0.60 (Lambda_0.60),PatternNet,85.98,85.98116755395678,saved logits
+T9,lambda=0.60 (Lambda_0.60),RSICD,81.27,81.2685928576602,saved logits
+T9,lambda=0.60 (Lambda_0.60),NWPU45,80.8,80.80258793696115,saved logits
+T9,lambda=0.60 (Lambda_0.60),MLRSNet,71.65,71.64848208407689,saved logits
+T9,lambda=0.60 (Lambda_0.60),dataset_mean_H,79.93,79.92520760816376,saved logits
+T9,lambda=0.75 (Lambda_0.75),PatternNet,85.93,85.92927180052592,saved logits
+T9,lambda=0.75 (Lambda_0.75),RSICD,80.52,80.51631410658578,saved logits
+T9,lambda=0.75 (Lambda_0.75),NWPU45,80.1,80.10063050626223,saved logits
+T9,lambda=0.75 (Lambda_0.75),MLRSNet,71.55,71.55267851507945,saved logits
+T9,lambda=0.75 (Lambda_0.75),dataset_mean_H,79.52,79.52472373211334,saved logits
+T9,lambda=1.0 (lambda_1.0),PatternNet,84.94,84.94129038115109,saved logits
+T9,lambda=1.0 (lambda_1.0),RSICD,80.49,80.48973249568002,saved logits
+T9,lambda=1.0 (lambda_1.0),NWPU45,80.38,80.37672551673954,saved logits
+T9,lambda=1.0 (lambda_1.0),MLRSNet,71.35,71.34786158959209,saved logits
+T9,lambda=1.0 (lambda_1.0),dataset_mean_H,79.29,79.28890249579068,saved logits
+T9,radius=0.125 (radius_0.125),PatternNet,85.69,85.6917404272639,saved logits
+T9,radius=0.125 (radius_0.125),RSICD,81.18,81.17540377372706,saved logits
+T9,radius=0.125 (radius_0.125),NWPU45,80.18,80.17601575141796,saved logits
+T9,radius=0.125 (radius_0.125),MLRSNet,70.85,70.8502031797759,saved logits
+T9,radius=0.125 (radius_0.125),dataset_mean_H,79.47,79.47334078304621,saved logits
+T9,radius=0.25 (Full),PatternNet,87.36,87.36084289260445,saved logits
+T9,radius=0.25 (Full),RSICD,81.4,81.39845506238622,saved logits
+T9,radius=0.25 (Full),NWPU45,81.22,81.2187618563635,saved logits
+T9,radius=0.25 (Full),MLRSNet,72.07,72.0735772943513,saved logits
+T9,radius=0.25 (Full),dataset_mean_H,80.51,80.51290927642637,saved logits
+T9,radius=0.5 (R0.5_SGD_text),PatternNet,87.05,87.05293385786757,saved logits
+T9,radius=0.5 (R0.5_SGD_text),RSICD,80.15,80.14829719202574,saved logits
+T9,radius=0.5 (R0.5_SGD_text),NWPU45,80.81,80.81440104474615,saved logits
+T9,radius=0.5 (R0.5_SGD_text),MLRSNet,72.61,72.61079751789208,saved logits
+T9,radius=0.5 (R0.5_SGD_text),dataset_mean_H,80.16,80.15660740313288,saved logits
+T9,radius=1.0 (radius_1.0),PatternNet,86.55,86.54967092885857,saved logits
+T9,radius=1.0 (radius_1.0),RSICD,79.86,79.85771880757838,saved logits
+T9,radius=1.0 (radius_1.0),NWPU45,80.84,80.84351007180737,saved logits
+T9,radius=1.0 (radius_1.0),MLRSNet,72.38,72.38325070550198,saved logits
+T9,radius=1.0 (radius_1.0),dataset_mean_H,79.91,79.90853762843658,saved logits
+T9,radius=bound_off (no_bound),PatternNet,86.53,86.5290484207592,saved logits
+T9,radius=bound_off (no_bound),RSICD,79.86,79.85771880757838,saved logits
+T9,radius=bound_off (no_bound),NWPU45,80.84,80.84351007180737,saved logits
+T9,radius=bound_off (no_bound),MLRSNet,72.38,72.38325070550198,saved logits
+T9,radius=bound_off (no_bound),dataset_mean_H,79.9,79.90338200141173,saved logits
+T9,kernel_decay_b=5 (bandwidth_5.0),PatternNet,86.34,86.34205066099295,saved logits
+T9,kernel_decay_b=5 (bandwidth_5.0),RSICD,82.07,82.07205696496595,saved logits
+T9,kernel_decay_b=5 (bandwidth_5.0),NWPU45,80.17,80.16643336433,saved logits
+T9,kernel_decay_b=5 (bandwidth_5.0),MLRSNet,72.87,72.86920665443839,saved logits
+T9,kernel_decay_b=5 (bandwidth_5.0),dataset_mean_H,80.36,80.36243691118182,saved logits
+T9,kernel_decay_b=10 (Full),PatternNet,87.36,87.36084289260445,saved logits
+T9,kernel_decay_b=10 (Full),RSICD,81.4,81.39845506238622,saved logits
+T9,kernel_decay_b=10 (Full),NWPU45,81.22,81.2187618563635,saved logits
+T9,kernel_decay_b=10 (Full),MLRSNet,72.07,72.0735772943513,saved logits
+T9,kernel_decay_b=10 (Full),dataset_mean_H,80.51,80.51290927642637,saved logits
+T9,kernel_decay_b=20 (bandwidth_20.0),PatternNet,87.66,87.66350528350704,saved logits
+T9,kernel_decay_b=20 (bandwidth_20.0),RSICD,80.5,80.50133856362683,saved logits
+T9,kernel_decay_b=20 (bandwidth_20.0),NWPU45,80.63,80.62970081818479,saved logits
+T9,kernel_decay_b=20 (bandwidth_20.0),MLRSNet,71.94,71.94177194662959,saved logits
+T9,kernel_decay_b=20 (bandwidth_20.0),dataset_mean_H,80.18,80.18407915298707,saved logits
+T9,ridge_rho=0.01 (ridge_0.01),PatternNet,87.27,87.26719581352316,saved logits
+T9,ridge_rho=0.01 (ridge_0.01),RSICD,81.72,81.72247756970525,saved logits
+T9,ridge_rho=0.01 (ridge_0.01),NWPU45,80.94,80.93687600441682,saved logits
+T9,ridge_rho=0.01 (ridge_0.01),MLRSNet,72.16,72.15761890084949,saved logits
+T9,ridge_rho=0.01 (ridge_0.01),dataset_mean_H,80.52,80.52104207212368,saved logits
+T9,ridge_rho=0.1 (Full),PatternNet,87.36,87.36084289260445,saved logits
+T9,ridge_rho=0.1 (Full),RSICD,81.4,81.39845506238622,saved logits
+T9,ridge_rho=0.1 (Full),NWPU45,81.22,81.2187618563635,saved logits
+T9,ridge_rho=0.1 (Full),MLRSNet,72.07,72.0735772943513,saved logits
+T9,ridge_rho=0.1 (Full),dataset_mean_H,80.51,80.51290927642637,saved logits
+T9,ridge_rho=1.0 (ridge_1.0),PatternNet,87.74,87.74091161463242,saved logits
+T9,ridge_rho=1.0 (ridge_1.0),RSICD,81.15,81.14985389325423,saved logits
+T9,ridge_rho=1.0 (ridge_1.0),NWPU45,81.06,81.05724834674088,saved logits
+T9,ridge_rho=1.0 (ridge_1.0),MLRSNet,71.69,71.6904576468887,saved logits
+T9,ridge_rho=1.0 (ridge_1.0),dataset_mean_H,80.41,80.40961787537906,saved logits
+T10,RN50_CoOp,B2N_H,59.18,59.17841550352742,saved logits
+T10,RN50_CoOp,CD,32.92,32.92171919268443,saved logits
+T10,RN50_CoOp,DG,68.46,68.46339264481074,saved logits
+T10,RN50_F00,B2N_H,67.72,67.72484781185842,saved logits
+T10,RN50_F00,CD,50.25,50.253813728229666,saved logits
+T10,RN50_F00,DG,77.01,77.00735192663514,saved logits
+T10,RN50_Full,B2N_H,69.11,69.10946389467962,saved logits
+T10,RN50_Full,CD,50.35,50.35011703314862,saved logits
+T10,RN50_Full,DG,77.14,77.13708281905326,saved logits
+T10,ViT-B-32_CoOp,B2N_H,67.62,67.62211981402348,saved logits
+T10,ViT-B-32_CoOp,CD,43.61,43.61054934386046,saved logits
+T10,ViT-B-32_CoOp,DG,75.48,75.47881257395976,saved logits
+T10,ViT-B-32_F00,B2N_H,76.07,76.07105367486109,saved logits
+T10,ViT-B-32_F00,CD,58.68,58.67809660606506,saved logits
+T10,ViT-B-32_F00,DG,83.99,83.9933613730779,saved logits
+T10,ViT-B-32_Full,B2N_H,77.03,77.0342739684951,saved logits
+T10,ViT-B-32_Full,CD,57.73,57.73457843451179,saved logits
+T10,ViT-B-32_Full,DG,84.47,84.4656862192674,saved logits
+T10,CoOp,B2N_H,74.33,74.33039951934236,saved logits
+T10,CoOp,CD,46.09,46.09456953351581,saved logits
+T10,CoOp,DG,77.39,77.38849535016287,saved logits
+T10,F00,B2N_H,79.76,79.76380836848577,saved logits
+T10,F00,CD,61.6,61.59671522537604,saved logits
+T10,F00,DG,83.07,83.0653231146154,saved logits
+T10,Full,B2N_H,80.57,80.57454391968501,saved logits
+T10,Full,CD,62.65,62.64663895103749,saved logits
+T10,Full,DG,85.28,85.27984556723146,saved logits
+T11,Matched CoOp,joint_base,84.36,84.35786442327331,saved logits
+T11,Matched CoOp,joint_new,50.65,50.653749836999935,saved logits
+T11,Matched CoOp,joint_H,63.3,63.298882613795584,saved logits
+T11,SpecPL,joint_base,87.28,87.28018728467624,saved logits
+T11,SpecPL,joint_new,52.81,52.81183268916339,saved logits
+T11,SpecPL,joint_H,65.81,65.80569898011206,saved logits
+T11,BRTP,joint_base,84.26,84.25891305946712,saved logits
+T11,BRTP,joint_new,57.95,57.95414301409039,saved logits
+T11,BRTP,joint_H,68.67,68.673766424574,saved logits
+A.1,PatternNet,CD.CoOp,46.09,46.09456953351581,saved logits
+A.1,PatternNet,CD.SpecPL,58.26,58.25838731035147,saved logits
+A.1,PatternNet,CD.BRTP,62.65,62.64663895103749,saved logits
+A.1,PatternNet,DG.CoOp,77.39,77.38849535016287,saved logits
+A.1,PatternNet,DG.SpecPL,84.65,84.65215617140495,saved logits
+A.1,PatternNet,DG.BRTP,85.28,85.27984556723146,saved logits
+A.1,RSICD,CD.CoOp,57.66,57.655985583617166,saved logits
+A.1,RSICD,CD.SpecPL,61.02,61.02001650612762,saved logits
+A.1,RSICD,CD.BRTP,64.51,64.51254441897717,saved logits
+A.1,RSICD,DG.CoOp,80.62,80.61567903778825,saved logits
+A.1,RSICD,DG.SpecPL,89.16,89.15857060980852,saved logits
+A.1,RSICD,DG.BRTP,87.82,87.82259247796016,saved logits
+A.1,NWPU45,CD.CoOp,61.47,61.47175554980044,saved logits
+A.1,NWPU45,CD.SpecPL,66.24,66.24376699655335,saved logits
+A.1,NWPU45,CD.BRTP,66.96,66.96267360328535,saved logits
+A.1,NWPU45,DG.CoOp,86.32,86.32092999682573,saved logits
+A.1,NWPU45,DG.SpecPL,89.69,89.68857593762114,saved logits
+A.1,NWPU45,DG.BRTP,87.59,87.59169480208051,saved logits
+A.1,MLRSNet,CD.CoOp,61.26,61.262405055395845,saved logits
+A.1,MLRSNet,CD.SpecPL,66.31,66.3139689355897,saved logits
+A.1,MLRSNet,CD.BRTP,69.96,69.96319037073556,saved logits
+A.1,MLRSNet,DG.CoOp,87.48,87.47575367211562,saved logits
+A.1,MLRSNet,DG.SpecPL,90.3,90.29723036602701,saved logits
+A.1,MLRSNet,DG.BRTP,90.02,90.02466585722183,saved logits
+A.1,Mean,CD.CoOp,56.62,56.62117893058232,saved logits
+A.1,Mean,CD.SpecPL,62.96,62.959034937155536,saved logits
+A.1,Mean,CD.BRTP,66.02,66.02126183600889,saved logits
+A.1,Mean,DG.CoOp,82.95,82.95021451422312,saved logits
+A.1,Mean,DG.SpecPL,88.45,88.4491332712154,saved logits
+A.1,Mean,DG.BRTP,87.68,87.67969967612349,saved logits
+A.2,PatternNet -> RSICD,CoOp,40.16,40.16438964789515,saved logits
+A.2,PatternNet -> RSICD,SpecPL,55.3,55.303787626346775,saved logits
+A.2,PatternNet -> RSICD,BRTP,61.2,61.20182161501722,saved logits
+A.2,PatternNet -> RSICD,BRTP_minus_SpecPL_pp,5.9,5.898033988670441,saved logits
+A.2,PatternNet -> NWPU45,CoOp,51.52,51.516754850088184,saved logits
+A.2,PatternNet -> NWPU45,SpecPL,62.65,62.64902998236332,saved logits
+A.2,PatternNet -> NWPU45,BRTP,67.49,67.4920634920635,saved logits
+A.2,PatternNet -> NWPU45,BRTP_minus_SpecPL_pp,4.84,4.843033509700177,saved logits
+A.2,PatternNet -> MLRSNet,CoOp,46.6,46.6025641025641,saved logits
+A.2,PatternNet -> MLRSNet,SpecPL,56.82,56.82234432234432,saved logits
+A.2,PatternNet -> MLRSNet,BRTP,59.25,59.24603174603175,saved logits
+A.2,PatternNet -> MLRSNet,BRTP_minus_SpecPL_pp,2.42,2.4236874236874257,saved logits
+A.2,RSICD -> PatternNet,CoOp,59.3,59.30190058479532,saved logits
+A.2,RSICD -> PatternNet,SpecPL,64.65,64.65277777777777,saved logits
+A.2,RSICD -> PatternNet,BRTP,66.83,66.82748538011697,saved logits
+A.2,RSICD -> PatternNet,BRTP_minus_SpecPL_pp,2.17,2.174707602339197,saved logits
+A.2,RSICD -> NWPU45,CoOp,60.48,60.476190476190474,saved logits
+A.2,RSICD -> NWPU45,SpecPL,63.32,63.31569664902998,saved logits
+A.2,RSICD -> NWPU45,BRTP,67.22,67.22398589065256,saved logits
+A.2,RSICD -> NWPU45,BRTP_minus_SpecPL_pp,3.91,3.908289241622576,saved logits
+A.2,RSICD -> MLRSNet,CoOp,53.19,53.18986568986569,saved logits
+A.2,RSICD -> MLRSNet,SpecPL,55.09,55.091575091575095,saved logits
+A.2,RSICD -> MLRSNet,BRTP,59.49,59.48616198616199,saved logits
+A.2,RSICD -> MLRSNet,BRTP_minus_SpecPL_pp,4.39,4.394586894586894,saved logits
+A.2,NWPU45 -> PatternNet,CoOp,65.65,65.65423976608187,saved logits
+A.2,NWPU45 -> PatternNet,SpecPL,71.51,71.50950292397661,saved logits
+A.2,NWPU45 -> PatternNet,BRTP,71.85,71.8530701754386,saved logits
+A.2,NWPU45 -> PatternNet,BRTP_minus_SpecPL_pp,0.34,0.34356725146199096,saved logits
+A.2,NWPU45 -> RSICD,CoOp,54.4,54.404087526380096,saved logits
+A.2,NWPU45 -> RSICD,SpecPL,60.61,60.61312895701433,saved logits
+A.2,NWPU45 -> RSICD,BRTP,64.87,64.86726646673331,saved logits
+A.2,NWPU45 -> RSICD,BRTP_minus_SpecPL_pp,4.25,4.25413750971898,saved logits
+A.2,NWPU45 -> MLRSNet,CoOp,64.36,64.35693935693936,saved logits
+A.2,NWPU45 -> MLRSNet,SpecPL,66.61,66.60866910866912,saved logits
+A.2,NWPU45 -> MLRSNet,BRTP,64.17,64.16768416768417,saved logits
+A.2,NWPU45 -> MLRSNet,BRTP_minus_SpecPL_pp,-2.44,-2.440984940984947,saved logits
+A.2,MLRSNet -> PatternNet,CoOp,60.73,60.72733918128655,saved logits
+A.2,MLRSNet -> PatternNet,SpecPL,69.29,69.29093567251462,saved logits
+A.2,MLRSNet -> PatternNet,BRTP,71.01,71.00511695906432,saved logits
+A.2,MLRSNet -> PatternNet,BRTP_minus_SpecPL_pp,1.71,1.714181286549703,saved logits
+A.2,MLRSNet -> RSICD,CoOp,55.29,55.29268021770521,saved logits
+A.2,MLRSNet -> RSICD,SpecPL,56.08,56.08130623125625,saved logits
+A.2,MLRSNet -> RSICD,BRTP,65.16,65.15605909141398,saved logits
+A.2,MLRSNet -> RSICD,BRTP_minus_SpecPL_pp,9.07,9.07475286015773,saved logits
+A.2,MLRSNet -> NWPU45,CoOp,67.77,67.76719576719577,saved logits
+A.2,MLRSNet -> NWPU45,SpecPL,73.57,73.56966490299824,saved logits
+A.2,MLRSNet -> NWPU45,BRTP,73.73,73.72839506172839,saved logits
+A.2,MLRSNet -> NWPU45,BRTP_minus_SpecPL_pp,0.16,0.15873015873015106,saved logits
+A.3,EuroSAT,images,27000.0,27000.0,saved logits
+A.3,EuroSAT,classes,10.0,10.0,saved logits
+A.3,EuroSAT,CoOp,39.0,39.00246913580247,saved logits
+A.3,EuroSAT,SpecPL,44.64,44.638271604938275,saved logits
+A.3,EuroSAT,BRTP,48.86,48.8604938271605,saved logits
+A.3,UCMerced,images,2100.0,2100.0,saved logits
+A.3,UCMerced,classes,21.0,21.0,saved logits
+A.3,UCMerced,CoOp,80.14,80.14285714285714,saved logits
+A.3,UCMerced,SpecPL,85.24,85.23809523809524,saved logits
+A.3,UCMerced,BRTP,81.95,81.95238095238095,saved logits
+A.3,AID,images,10000.0,10000.0,saved logits
+A.3,AID,classes,30.0,30.0,saved logits
+A.3,AID,CoOp,45.81,45.806666666666665,saved logits
+A.3,AID,SpecPL,64.17,64.17333333333333,saved logits
+A.3,AID,BRTP,67.15,67.14666666666668,saved logits
+A.3,Mean,CoOp,54.98,54.98399764844209,saved logits
+A.3,Mean,SpecPL,64.68,64.68323339212228,saved logits
+A.3,Mean,BRTP,65.99,65.9865138154027,saved logits
+A.4,Base,CoOp.ECE_pp,1.4,1.40227014325971,saved logits
+A.4,Base,CoOp.NLL,0.242,0.2416741019800079,saved logits
+A.4,Base,SpecPL.ECE_pp,2.73,2.7274895412869666,saved logits
+A.4,Base,SpecPL.NLL,0.162,0.16227445025488946,saved logits
+A.4,Base,BRTP.ECE_pp,6.36,6.355411286550586,saved logits
+A.4,Base,BRTP.NLL,0.302,0.30171906363867645,saved logits
+A.4,New,CoOp.ECE_pp,16.35,16.352860694076355,saved logits
+A.4,New,CoOp.NLL,1.496,1.4956524971635987,saved logits
+A.4,New,SpecPL.ECE_pp,12.49,12.487347608627916,saved logits
+A.4,New,SpecPL.NLL,1.302,1.3017968314826434,saved logits
+A.4,New,BRTP.ECE_pp,4.24,4.239448823503034,saved logits
+A.4,New,BRTP.NLL,0.976,0.9761144139910822,saved logits
+A.4,CD,CoOp.ECE_pp,21.97,21.970759274244926,saved logits
+A.4,CD,CoOp.NLL,2.431,2.431399179456598,saved logits
+A.4,CD,SpecPL.ECE_pp,18.13,18.130974824249773,saved logits
+A.4,CD,SpecPL.NLL,1.929,1.9294455217515112,saved logits
+A.4,CD,BRTP.ECE_pp,3.09,3.0906141484070155,saved logits
+A.4,CD,BRTP.NLL,1.323,1.322670356701267,saved logits
+A.4,DG,CoOp.ECE_pp,7.54,7.5373328167521505,saved logits
+A.4,DG,CoOp.NLL,0.764,0.7638194526474563,saved logits
+A.4,DG,SpecPL.ECE_pp,3.49,3.4947719997289783,saved logits
+A.4,DG,SpecPL.NLL,0.488,0.4882637160802746,saved logits
+A.4,DG,BRTP.ECE_pp,3.01,3.0060507008328834,saved logits
+A.4,DG,BRTP.NLL,0.484,0.48390281926529877,saved logits

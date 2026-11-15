@@ -10,6 +10,20 @@ BRTP implements shared prompt learning for CLIP classifiers. It keeps the image 
 
 The [evaluation counts and calculation instructions](data/) describe these measurements.
 
+## Results package
+
+The [results package](results/) records the numerical evidence of the paper:
+
+- `tables.csv`: every value printed in Tables 1–11 and A.1–A.4, with the value checked against the saved evidence and the kind of evidence used (762 entries).
+- `test-panels.csv`: 2,844 model, task, source, target, seed and test-vocabulary panels rebuilt from the saved test predictions, giving test images, competing labels, correct predictions and accuracy.
+- `fig4-mechanisms.csv`, `fig5-sensitivity.csv`, `fig6-ten-seeds.csv` and `fig6-summary.csv`: the matched-configuration comparison, the shot and radius sweeps, and the ten-seed scores behind Figures 4–6.
+- `class-geometry.csv`: per-class, per-seed coverage, residual length, bound indicators and final angle for F00, the data behind Table 6.
+- `external-targets.csv` and `calibration.csv`: per-seed external-target scores and calibration errors behind Tables A.3 and A.4.
+- `protocol.txt`: dataset counts, support construction, training settings and the aggregation rule for each metric.
+- `verify.py` and `SHA256SUMS`: the recomputation entry point and the digests it checks.
+
+Run `python results/verify.py` from any directory. It needs Python 3 and the files beside it, verifies the digests and all 2,844 panel accuracies, rebuilds the main-table values of the five locally trained methods, checks the ten-seed summaries and prints the three headline scores. The package holds no images, model weights, per-image predictions or third-party texts. Release v1.1.0 is the version cited by the manuscript.
+
 ## Install and check
 
 Use Python 3.10 on Linux for CUDA execution. Install a matching PyTorch and torchvision pair, then the remaining dependencies. The CUDA runner expects the following versions:

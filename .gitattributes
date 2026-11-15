@@ -1,2 +1,5 @@
 * text=auto eol=lf
 *.gz -text
+# The results README and its digest list ship byte-identical to the author-side records.
+results/README.md -text !eol
+results/SHA256SUMS -text !eol
